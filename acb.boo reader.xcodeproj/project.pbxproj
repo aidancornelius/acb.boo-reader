@@ -11,6 +11,12 @@
 		44241DB72C901CB20078008E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DB62C901CB20078008E /* ContentView.swift */; };
 		44241DB92C901CB20078008E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44241DB82C901CB20078008E /* Assets.xcassets */; };
 		44241DBC2C901CB20078008E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44241DBB2C901CB20078008E /* Preview Assets.xcassets */; };
+		44241DC32C901CCC0078008E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DC22C901CCC0078008E /* Models.swift */; };
+		44241DC52C901CE00078008E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DC42C901CE00078008E /* NetworkService.swift */; };
+		44241DC72C901CF40078008E /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DC62C901CF40078008E /* PostListViewModel.swift */; };
+		44241DC92C901D310078008E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DC82C901D310078008E /* PostDetailView.swift */; };
+		44241DCD2C9021D80078008E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DCC2C9021D80078008E /* Utilities.swift */; };
+		44241DCF2C902A590078008E /* CollapsibleHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DCE2C902A590078008E /* CollapsibleHeaderScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		44241DB62C901CB20078008E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44241DB82C901CB20078008E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44241DBB2C901CB20078008E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44241DC22C901CCC0078008E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		44241DC42C901CE00078008E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		44241DC62C901CF40078008E /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		44241DC82C901D310078008E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		44241DCC2C9021D80078008E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		44241DCE2C902A590078008E /* CollapsibleHeaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				44241DB62C901CB20078008E /* ContentView.swift */,
 				44241DB82C901CB20078008E /* Assets.xcassets */,
 				44241DBA2C901CB20078008E /* Preview Content */,
+				44241DC22C901CCC0078008E /* Models.swift */,
+				44241DC42C901CE00078008E /* NetworkService.swift */,
+				44241DC62C901CF40078008E /* PostListViewModel.swift */,
+				44241DC82C901D310078008E /* PostDetailView.swift */,
+				44241DCC2C9021D80078008E /* Utilities.swift */,
+				44241DCE2C902A590078008E /* CollapsibleHeaderScrollView.swift */,
 			);
 			path = "acb.boo reader";
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44241DC32C901CCC0078008E /* Models.swift in Sources */,
 				44241DB72C901CB20078008E /* ContentView.swift in Sources */,
+				44241DCD2C9021D80078008E /* Utilities.swift in Sources */,
+				44241DCF2C902A590078008E /* CollapsibleHeaderScrollView.swift in Sources */,
+				44241DC72C901CF40078008E /* PostListViewModel.swift in Sources */,
+				44241DC92C901D310078008E /* PostDetailView.swift in Sources */,
+				44241DC52C901CE00078008E /* NetworkService.swift in Sources */,
 				44241DB52C901CB20078008E /* acb_boo_readerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
