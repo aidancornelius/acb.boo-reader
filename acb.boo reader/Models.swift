@@ -35,8 +35,22 @@ struct FullPost: Identifiable, Codable {
 }
 
 struct ApiResponse: Codable {
-    let items: [Post]
-    let meta: Meta
+    let items: [Post]?
+    let meta: Meta?
+    let message: String?
+    let error: String?
+
+    enum CodingKeys: String, CodingKey {
+        case items, meta, message, error
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        items = try container.decodeIfPresent([Post].self, forKey: .items)
+        meta = try container.decodeIfPresent(Meta.self, forKey: .meta)
+        message = try container.decodeIfPresent(String.self, forKey: .message)
+        error = try container.decodeIfPresent(String.self, forKey: .error)
+    }
 }
 
 struct Meta: Codable {

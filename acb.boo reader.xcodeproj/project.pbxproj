@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44031AC62C911F190045A2BB /* ShareExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44031AC52C911F190045A2BB /* ShareExtension.swift */; };
 		44241DB52C901CB20078008E /* acb_boo_readerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DB42C901CB20078008E /* acb_boo_readerApp.swift */; };
 		44241DB72C901CB20078008E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DB62C901CB20078008E /* ContentView.swift */; };
 		44241DB92C901CB20078008E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44241DB82C901CB20078008E /* Assets.xcassets */; };
@@ -17,9 +18,42 @@
 		44241DC92C901D310078008E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DC82C901D310078008E /* PostDetailView.swift */; };
 		44241DCD2C9021D80078008E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DCC2C9021D80078008E /* Utilities.swift */; };
 		44241DCF2C902A590078008E /* CollapsibleHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DCE2C902A590078008E /* CollapsibleHeaderScrollView.swift */; };
+		44241DD12C90F7520078008E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DD02C90F7520078008E /* SettingsView.swift */; };
+		44241DD32C910D890078008E /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DD22C910D890078008E /* ToastView.swift */; };
+		44241DDB2C911BF80078008E /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DDA2C911BF80078008E /* ShareViewController.swift */; };
+		44241DDE2C911BF80078008E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44241DDD2C911BF80078008E /* Base */; };
+		44241DE22C911BF80078008E /* BookmarkShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 44241DD82C911BF80078008E /* BookmarkShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44241DE82C911C610078008E /* SharedBookmarkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44241DE72C911C610078008E /* SharedBookmarkHandler.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		44241DE02C911BF80078008E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44241DA92C901CB20078008E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44241DD72C911BF80078008E;
+			remoteInfo = BookmarkShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44241DE62C911BF80078008E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				44241DE22C911BF80078008E /* BookmarkShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		44031AC52C911F190045A2BB /* ShareExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtension.swift; sourceTree = "<group>"; };
+		44031AC72C91291F0045A2BB /* acb.boo reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "acb.boo reader.entitlements"; sourceTree = "<group>"; };
+		44031AC82C91293A0045A2BB /* BookmarkShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookmarkShareExtension.entitlements; sourceTree = "<group>"; };
 		44241DB12C901CB20078008E /* acb.boo reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "acb.boo reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44241DB42C901CB20078008E /* acb_boo_readerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acb_boo_readerApp.swift; sourceTree = "<group>"; };
 		44241DB62C901CB20078008E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,10 +65,25 @@
 		44241DC82C901D310078008E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		44241DCC2C9021D80078008E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		44241DCE2C902A590078008E /* CollapsibleHeaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleHeaderScrollView.swift; sourceTree = "<group>"; };
+		44241DD02C90F7520078008E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		44241DD22C910D890078008E /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		44241DD82C911BF80078008E /* BookmarkShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BookmarkShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		44241DDA2C911BF80078008E /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		44241DDD2C911BF80078008E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		44241DDF2C911BF80078008E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44241DE72C911C610078008E /* SharedBookmarkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedBookmarkHandler.swift; sourceTree = "<group>"; };
+		44241DE92C911CA70078008E /* acb-boo-reader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "acb-boo-reader-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		44241DAE2C901CB20078008E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44241DD52C911BF80078008E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				44241DB32C901CB20078008E /* acb.boo reader */,
+				44241DD92C911BF80078008E /* BookmarkShareExtension */,
 				44241DB22C901CB20078008E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				44241DB12C901CB20078008E /* acb.boo reader.app */,
+				44241DD82C911BF80078008E /* BookmarkShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +114,8 @@
 		44241DB32C901CB20078008E /* acb.boo reader */ = {
 			isa = PBXGroup;
 			children = (
+				44031AC72C91291F0045A2BB /* acb.boo reader.entitlements */,
+				44241DE92C911CA70078008E /* acb-boo-reader-Info.plist */,
 				44241DB42C901CB20078008E /* acb_boo_readerApp.swift */,
 				44241DB62C901CB20078008E /* ContentView.swift */,
 				44241DB82C901CB20078008E /* Assets.xcassets */,
@@ -73,6 +126,10 @@
 				44241DC82C901D310078008E /* PostDetailView.swift */,
 				44241DCC2C9021D80078008E /* Utilities.swift */,
 				44241DCE2C902A590078008E /* CollapsibleHeaderScrollView.swift */,
+				44241DD02C90F7520078008E /* SettingsView.swift */,
+				44241DD22C910D890078008E /* ToastView.swift */,
+				44241DE72C911C610078008E /* SharedBookmarkHandler.swift */,
+				44031AC52C911F190045A2BB /* ShareExtension.swift */,
 			);
 			path = "acb.boo reader";
 			sourceTree = "<group>";
@@ -85,6 +142,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		44241DD92C911BF80078008E /* BookmarkShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				44031AC82C91293A0045A2BB /* BookmarkShareExtension.entitlements */,
+				44241DDA2C911BF80078008E /* ShareViewController.swift */,
+				44241DDC2C911BF80078008E /* MainInterface.storyboard */,
+				44241DDF2C911BF80078008E /* Info.plist */,
+			);
+			path = BookmarkShareExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,15 +163,34 @@
 				44241DAD2C901CB20078008E /* Sources */,
 				44241DAE2C901CB20078008E /* Frameworks */,
 				44241DAF2C901CB20078008E /* Resources */,
+				44241DE62C911BF80078008E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				44241DE12C911BF80078008E /* PBXTargetDependency */,
 			);
 			name = "acb.boo reader";
 			productName = "acb.boo reader";
 			productReference = 44241DB12C901CB20078008E /* acb.boo reader.app */;
 			productType = "com.apple.product-type.application";
+		};
+		44241DD72C911BF80078008E /* BookmarkShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44241DE32C911BF80078008E /* Build configuration list for PBXNativeTarget "BookmarkShareExtension" */;
+			buildPhases = (
+				44241DD42C911BF80078008E /* Sources */,
+				44241DD52C911BF80078008E /* Frameworks */,
+				44241DD62C911BF80078008E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookmarkShareExtension;
+			productName = BookmarkShareExtension;
+			productReference = 44241DD82C911BF80078008E /* BookmarkShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,6 +203,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					44241DB02C901CB20078008E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					44241DD72C911BF80078008E = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -134,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				44241DB02C901CB20078008E /* acb.boo reader */,
+				44241DD72C911BF80078008E /* BookmarkShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -148,6 +239,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44241DD62C911BF80078008E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44241DDE2C911BF80078008E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -158,15 +257,46 @@
 				44241DC32C901CCC0078008E /* Models.swift in Sources */,
 				44241DB72C901CB20078008E /* ContentView.swift in Sources */,
 				44241DCD2C9021D80078008E /* Utilities.swift in Sources */,
+				44241DD12C90F7520078008E /* SettingsView.swift in Sources */,
+				44241DD32C910D890078008E /* ToastView.swift in Sources */,
 				44241DCF2C902A590078008E /* CollapsibleHeaderScrollView.swift in Sources */,
 				44241DC72C901CF40078008E /* PostListViewModel.swift in Sources */,
+				44241DE82C911C610078008E /* SharedBookmarkHandler.swift in Sources */,
 				44241DC92C901D310078008E /* PostDetailView.swift in Sources */,
 				44241DC52C901CE00078008E /* NetworkService.swift in Sources */,
 				44241DB52C901CB20078008E /* acb_boo_readerApp.swift in Sources */,
+				44031AC62C911F190045A2BB /* ShareExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44241DD42C911BF80078008E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44241DDB2C911BF80078008E /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44241DE12C911BF80078008E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44241DD72C911BF80078008E /* BookmarkShareExtension */;
+			targetProxy = 44241DE02C911BF80078008E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44241DDC2C911BF80078008E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44241DDD2C911BF80078008E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		44241DBD2C901CB20078008E /* Debug */ = {
@@ -291,14 +421,17 @@
 		44241DC02C901CB20078008E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "acb.boo reader/acb.boo reader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"acb.boo reader/Preview Content\"";
 				DEVELOPMENT_TEAM = HK6R36PLNR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "acb-boo-reader-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "acb.boo reader";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,14 +454,17 @@
 		44241DC12C901CB20078008E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "acb.boo reader/acb.boo reader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"acb.boo reader/Preview Content\"";
 				DEVELOPMENT_TEAM = HK6R36PLNR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "acb-boo-reader-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "acb.boo reader";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -342,6 +478,58 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cornelius-bell.acb-boo-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44241DE42C911BF80078008E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BookmarkShareExtension/BookmarkShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookmarkShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookmarkShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornelius-bell.acb-boo-reader.BookmarkShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44241DE52C911BF80078008E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BookmarkShareExtension/BookmarkShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HK6R36PLNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookmarkShareExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookmarkShareExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornelius-bell.acb-boo-reader.BookmarkShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,6 +553,15 @@
 			buildConfigurations = (
 				44241DC02C901CB20078008E /* Debug */,
 				44241DC12C901CB20078008E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44241DE32C911BF80078008E /* Build configuration list for PBXNativeTarget "BookmarkShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44241DE42C911BF80078008E /* Debug */,
+				44241DE52C911BF80078008E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
