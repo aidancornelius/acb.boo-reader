@@ -42,6 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         NSLog("Application will enter foreground")
+        processPendingBookmarks()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
@@ -51,6 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillResignActive(_ application: UIApplication) {
         NSLog("Application will resign active")
+        processPendingBookmarks()
     }
 
     private func processPendingBookmarks() {

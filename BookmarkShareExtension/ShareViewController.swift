@@ -64,7 +64,7 @@ class ShareViewController: UIViewController {
             return
         }
         
-        let bookmark = ["url": url, "comment": comment, "date": Date().timeIntervalSince1970] as [String : Any]
+        let bookmark = ["url": url, "title": "", "comment": comment, "date": Date().timeIntervalSince1970] as [String : Any]
         
         if var bookmarks = sharedDefaults.array(forKey: "pendingBookmarks") as? [[String: Any]] {
             bookmarks.append(bookmark)
